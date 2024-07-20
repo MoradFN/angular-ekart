@@ -1,0 +1,34 @@
+.container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.row {
+  margin: 0 -15px;
+}
+
+.col-md-4 {
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.card-img-top {
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}

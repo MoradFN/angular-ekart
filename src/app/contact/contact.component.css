@@ -1,0 +1,21 @@
+.container {
+  margin-top: 2em;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.col-md-6 {
+  flex-basis: 45%;
+}
+
+address {
+  font-style: normal;
+}
+
+.btn-primary {
+  margin-top: 1em;
+}

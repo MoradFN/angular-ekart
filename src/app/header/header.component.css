@@ -1,0 +1,34 @@
+a.nav-link {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.ekart-header {
+  width: 100%;
+  height: 70px;
+  border: 3px solid black;
+}
+
+.ekart-header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ekart-top-bar,
+.ekart-bottom-bar {
+  display: flex;
+  list-style-type: none;
+}
+
+.ekart-top-bar {
+  margin-right: 10px;
+}
+
+.ekart-bottom-bar {
+  margin-left: 10px;
+}
+
+button {
+  padding: 10px 20px;
+}

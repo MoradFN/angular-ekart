@@ -1,0 +1,25 @@
+.container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.row {
+  margin: 0 -15px;
+}
+
+.col-md-6 {
+  padding: 0 15px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.img-fluid {
+  margin-top: 20px;
+}
