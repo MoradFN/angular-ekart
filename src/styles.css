@@ -14,3 +14,9 @@ h2,
 h3 {
   font-family: "Edu AU VIC WA NT Hand", cursive;
 }
+
+a.nav-link {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #28282b;
+}
