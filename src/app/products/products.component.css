@@ -32,3 +32,16 @@
 .card-text {
   margin-bottom: 10px;
 }
+
+.out-of-stock {
+  color: red;
+  text-decoration: line-through;
+}
+
+.low-stock {
+  color: red;
+}
+
+.in-stock {
+  color: green;
+}

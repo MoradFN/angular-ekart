@@ -12,7 +12,23 @@
         <div class="card-body">
           <h5 class="card-title">{{ product.name }}</h5>
           <p class="card-text">{{ product.description }}</p>
-          <p class="card-text">{{ product.price }}</p>
+          <p class="card-text">{{ "$" + product.price }}</p>
+          <p>Disounted Price: {{ getDiscountedPrice(product).toFixed(2) }}</p>
+          <p
+            [ngClass]="{
+              'out-of-stock': product.inStock === 0,
+              'low-stock': product.inStock > 0 && product.inStock <= 5,
+              'in-stock': product.inStock > 5
+            }"
+          >
+            {{
+              product.inStock === 0
+                ? "Out of Stock"
+                : product.inStock <= 5
+                ? "Only " + product.inStock + " left in stock"
+                : "In Stock: " + product.inStock
+            }}
+          </p>
         </div>
       </div>
     </div>
